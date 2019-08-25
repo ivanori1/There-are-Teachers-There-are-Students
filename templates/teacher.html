@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script>
+        window.onload = function() {
+            setTimeout(function() {
+                document.getElementById('posts').style.display = 'block';
+            }, 3000);
+        };
+    </script>
+</head>
+
+<body>
+    <h1>This is the Teacher page</h1>
+
+    <a href="{{ url_for('homepage') }}" class="nav-link" id="home-link">Go to home</a>
+</body>
+
+</html>
